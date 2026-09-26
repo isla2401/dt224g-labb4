@@ -5,3 +5,7 @@ let firstName = "Isac";
 let lastName = "Larsson";
 let age = 22;
 let isStudent = true;
+
+console.log(`Namn: ${firstName} ${lastName}`);
+console.log(`Ålder: ${age} år`)
+console.log(`Student: ${isStudent}`)
