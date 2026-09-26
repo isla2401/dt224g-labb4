@@ -18,3 +18,11 @@ const people = [
         city: "Grums",
     },
 ];
+
+let printPersonInfo = function (person) {
+    if (person.age >= 18) {
+        console.log(`${person.name} bor i ${person.city} och är myndig`);
+    } else {
+        console.log(`${person.name} bor i ${person.city} och är inte myndig`);
+    }
+};
