@@ -29,3 +29,8 @@ let printPersonInfo = function (person) {
         console.log(`${person.name} bor i ${person.city} och är inte myndig`);
     }
 };
+
+// Loopar igenom alla personer i arrayen "people" och anropar funktionen för att skriva ut information om personen.
+people.forEach((person) => {
+    printPersonInfo(person);
+});
