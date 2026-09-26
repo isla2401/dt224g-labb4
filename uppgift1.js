@@ -12,4 +12,4 @@ let printOutput = function () {
     console.log(`Student: ${isStudent}`);
 };
 
-printOutput();
+printOutput(); // Anropar funktionen för att skriva ut information
